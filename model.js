@@ -1,8 +1,8 @@
-const model = {
-  app: {
+let modell = {
+  appz: {
     currentPage: "home",
   },
-  input: {
+  inputz: {
     searchBar: "",
     chosenTootId: 3,
     newToot: {
@@ -13,14 +13,15 @@ const model = {
       producer: "",
     },
   },
-  data: {
-    myToots: [
+  dataz: [
+    myTootz: [
       {
         name: "BertBerten",
         year: 1997,
         type: "Aalto recorder",
         value: "231",
         producer: "Aalto Industries AS",
+        img:"danborge_blokkis.png"
       },
       {
         name: "Tut Tutesen",
@@ -37,5 +38,5 @@ const model = {
         producer: "Yamaha",
       },
     ],
-  },
+  ],
 };
